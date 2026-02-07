@@ -9,7 +9,7 @@ class Program
         nome = Console.ReadLine();
         for (int i = 0; i < 100; i++)
         {
-            Console.WriteLine(nome);
+            Console.WriteLine(nome);            // for que printa o nome do usuario 100 vezes
         }
     }
 }
