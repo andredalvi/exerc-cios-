@@ -6,7 +6,7 @@ class Program
     {
         for (int numero = 2; numero <= 100; numero += 2)
         {
-            Console.WriteLine(numero);                    //for printando 100 vezes
+            Console.WriteLine(numero);                    //for que printa somente os pares
         }
     }
 }
