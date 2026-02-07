@@ -1,17 +1,17 @@
         class Pessoa
         {
             private string nome;
-            private int idade;
+            private int idade;                                //criando objeto e declarando as variaveis
 
             public Pessoa()
             {
                 nome = "";
-                idade = 0;
+                idade = 0;                // construtor default
             }
 
             public Pessoa(string nome_, int idade_)
             {
-                nome = nome_;
+                nome = nome_;                        //construtor padrão
                 idade = idade_;
             }
 
@@ -25,7 +25,7 @@
                 idade = comando;
             }
 
-            public string pegar_nome()
+            public string pegar_nome()                        //metodos get e set
             {
                 return nome;
             }
@@ -37,7 +37,7 @@
 
             public void ExibirDados()
             {
-                Console.WriteLine("Nome: " + nome);
+                Console.WriteLine("Nome: " + nome);                        //função para imprimir os dados
                 Console.WriteLine("Idade: " + idade);
             }
         }
