@@ -1,19 +1,20 @@
 using System;
-using System.Reflection.Metadata;
 
-namespace exercicio3
+namespace exercicio
 {
     class Program
     {
         static void Main()
         {
-            int soma = 0, contador = 0;            
+            int soma = 1, contador = 0, soma2 = 0, resultado = 0;            
             do    
             {
-                Console.WriteLine(soma);
-                soma += soma + 1;
+                Console.WriteLine(resultado);
+                resultado = soma2 + soma;
+                soma2 = soma;
+                soma = resultado;
                 contador++;
-            } while(contador <30);
+            } while(contador < 30);
         }
     }
 }
