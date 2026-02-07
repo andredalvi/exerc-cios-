@@ -1,19 +1,15 @@
 using System;
-using System.Reflection.Metadata;
 
-namespace exercicio3
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
+        string nome = "";
+        Console.WriteLine("digite seu nome");
+        nome = Console.ReadLine();
+        for (int i = 0; i < 100; i++)
         {
-            int soma = 0, contador = 0;            
-            do    
-            {
-                Console.WriteLine(soma);
-                soma += soma + 1;
-                contador++;
-            } while(contador <30);
+            Console.WriteLine(nome);
         }
     }
 }
