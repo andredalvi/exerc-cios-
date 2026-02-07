@@ -10,7 +10,7 @@ class Program
         {
             for (int j = 0; j < i; j++)
             {
-                Console.Write("*");
+                Console.Write("*");            //for com limite variavel em altura
             }
             Console.WriteLine();
         }
