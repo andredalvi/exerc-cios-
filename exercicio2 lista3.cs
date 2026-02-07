@@ -4,18 +4,18 @@ using System;
         class Ponto
         {
             private int coordenada_x;
-            private int coordenada_y;
+            private int coordenada_y;            //declarando variaveis 
 
             public Ponto()
             {
                 coordenada_x = 0;
-                coordenada_y = 0;
+                coordenada_y = 0;             //construtor default
             }
 
             public Ponto(int x, int y)
             {
                 coordenada_x = x;
-                coordenada_y = y;
+                coordenada_y = y;            //construtor padrão
             }
 
             public Ponto(Ponto outro_ponto)
@@ -34,7 +34,7 @@ using System;
                 coordenada_y = comando;
             }
 
-            public int pegar_x()
+            public int pegar_x()                    //metodos get e set 
             {
                 return coordenada_x;
             }
@@ -46,7 +46,7 @@ using System;
 
             public void ExibirDados()
             {
-                Console.WriteLine("X: " + coordenada_x + " Y: " + coordenada_y);
+                Console.WriteLine("X: " + coordenada_x + " Y: " + coordenada_y);        //printar as coordenadas
             }
         }
     }
