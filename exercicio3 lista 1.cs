@@ -1,19 +1,18 @@
 using System;
-using System.Reflection.Metadata;
 
-namespace exercicio3
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
+        int altura = 5; 
+
+        for (int i = 1; i <= altura; i++)
         {
-            int soma = 0, contador = 0;            
-            do    
+            for (int j = 0; j < i; j++)
             {
-                Console.WriteLine(soma);
-                soma += soma + 1;
-                contador++;
-            } while(contador <30);
+                Console.Write("*");
+            }
+            Console.WriteLine();
         }
     }
 }
